@@ -23,6 +23,8 @@ lines(d$DateTime,d$Sub_metering_1, col="black")
 lines(d$DateTime,d$Sub_metering_2, col="red")
 lines(d$DateTime,d$Sub_metering_3, col="blue")
 
+textlegend = c("Sub_metering_1", "Sub_metering_3", "Sub_metering_3")
+
 col<-c("black","red","blue")
 lty<-c(1,1,1)
 legend("topright",textlegend,lty=lty,col=col)

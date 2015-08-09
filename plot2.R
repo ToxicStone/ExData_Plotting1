@@ -1,5 +1,5 @@
 ## Reading the data
-## Assumes the script the data file is in the working directory
+## We assume the script the data file is in the working directory
 data<-read.csv("household_power_consumption.txt",sep=";")
 
 ## Selecting data from 1/2/2007 and 2/2/2007
